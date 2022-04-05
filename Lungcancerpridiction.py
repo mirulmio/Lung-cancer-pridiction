@@ -9,7 +9,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 
 
 st.markdown(""" <style> .font {font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} </style> """, unsafe_allow_html=True)
