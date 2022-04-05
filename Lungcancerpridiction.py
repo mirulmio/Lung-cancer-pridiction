@@ -27,7 +27,7 @@ st.sidebar.write ("For more info, please contact:")
 st.sidebar.write("<a href='www.linkedin.com/in/ikmal-fazli-876621234'>Mr. Ikmal Fazli</a>", unsafe_allow_html=True)
 
 
-data = pd.read_csv('C:/Users/Si Kemal/Downloads/survey lung cancer.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/IkmalFazli/Lung-cancer-pridiction/main/survey%20lung%20cancer.csv')
 
 labelencoder1 = LabelEncoder()
 labelencoder2 = LabelEncoder()
